@@ -16,7 +16,7 @@ export const AppDataSource = new DataSource({
     ? { rejectUnauthorized: false }
     : false,
 
-  synchronize: true, // OK for take-home
+  synchronize: true, 
   logging: false,
   entities: ["src/entity/*.ts"],
 });
